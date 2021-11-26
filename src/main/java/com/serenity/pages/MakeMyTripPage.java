@@ -34,7 +34,14 @@ public class MakeMyTripPage extends PageObject{
 	
 	@FindBy(xpath = "//a[contains(.,'Search')]")
 	public WebElementFacade roundwaySearch;
+	
+	@FindBy(xpath = "//p[@class='font24 blackFont whiteText appendBottom20 journey-title']")
+	public 	WebElementFacade flightDetailsPageTitle;
+	
 
+	@FindBy(xpath = "//span[contains(.,'Sorted By:')]")
+	public 	WebElementFacade flightSortBy;
+	
 	
 	public void MakeMyTrip_homepage() {
 				

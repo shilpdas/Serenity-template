@@ -3,10 +3,10 @@
 Scenario: One Way flight search                 [90m# features/MakeMyTrip.feature:6[0m
   [32mGiven [0m[32mI am on MakeMyTrip homepage[0m             [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_on_make_my_trip_homepage()[0m
   [32mWhen [0m[32mI do one way flight search for the below[0m [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_do_one_way_flight_search_for_the_below(io.cucumber.datatable.DataTable)[0m
-  [32mThen [0m[32mI am directed to One way flight details[0m  [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_one_way_flight_details()[0m
+  [32mThen [0m[32mI am directed to flight details[0m          [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_flight_details()[0m
 
 @Trips @RoundWayTrip
-Scenario: Round Way flight search                 [90m# features/MakeMyTrip.feature:15[0m
+Scenario: Round Way flight search                 [90m# features/MakeMyTrip.feature:14[0m
   [32mGiven [0m[32mI am on MakeMyTrip homepage[0m               [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_on_make_my_trip_homepage()[0m
   [32mWhen [0m[32mI do Round way flight search for the below[0m [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_do_round_way_flight_search_for_the_below(io.cucumber.datatable.DataTable)[0m
-  [32mThen [0m[32mI am directed to two way flight details[0m    [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_two_way_flight_details()[0m
+  [32mThen [0m[32mI am directed to flight details[0m            [90m# com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_flight_details()[0m

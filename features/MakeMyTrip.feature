@@ -8,13 +8,13 @@ Feature: Search flights
     When I do one way flight search for the below
     |From|Delhi|
     |To|Bangalore|
-    Then I am directed to One way flight details
-   
-
- @RoundWayTrip
+    Then I am directed to flight details
+    
+     @RoundWayTrip
   Scenario: Round Way flight search
     Given I am on MakeMyTrip homepage
     When I do Round way flight search for the below
     |From|Delhi|
     |To|Bangalore|
-    Then I am directed to two way flight details
+    Then I am directed to flight details
+ 

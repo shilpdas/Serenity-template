@@ -45,7 +45,8 @@ public class MakeMyTripStep extends ScenarioSteps {
 	@Step
 	public void flight_details() {
 		
-		
+		MakeMyTrip.flightDetailsPageTitle.isCurrentlyVisible();	
+		MakeMyTrip.flightSortBy.isCurrentlyVisible();
 		
 	}
 	

@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-26T09:32:48.736Z",
+        "start_timestamp": "2021-11-26T13:05:56.265Z",
         "line": 6,
         "name": "One Way flight search",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4178107600,
+              "duration": 4151895700,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 17358600,
+              "duration": 22713600,
               "status": "passed"
             },
             "line": 8,
@@ -51,13 +51,13 @@
           },
           {
             "result": {
-              "duration": 11569600,
+              "duration": 20065300,
               "status": "passed"
             },
             "line": 11,
-            "name": "I am directed to One way flight details",
+            "name": "I am directed to flight details",
             "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_one_way_flight_details()"
+              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_flight_details()"
             },
             "keyword": "Then "
           }
@@ -72,8 +72,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-26T09:32:54.012Z",
-        "line": 15,
+        "start_timestamp": "2021-11-26T13:06:01.629Z",
+        "line": 14,
         "name": "Round Way flight search",
         "description": "",
         "id": "search-flights;round-way-flight-search",
@@ -82,10 +82,10 @@
         "steps": [
           {
             "result": {
-              "duration": 166347200,
+              "duration": 165804100,
               "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "I am on MakeMyTrip homepage",
             "match": {
               "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_on_make_my_trip_homepage()"
@@ -94,10 +94,10 @@
           },
           {
             "result": {
-              "duration": 11028800,
+              "duration": 18779800,
               "status": "passed"
             },
-            "line": 17,
+            "line": 16,
             "name": "I do Round way flight search for the below",
             "match": {
               "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_do_round_way_flight_search_for_the_below(io.cucumber.datatable.DataTable)"
@@ -120,13 +120,13 @@
           },
           {
             "result": {
-              "duration": 25707600,
+              "duration": 13658600,
               "status": "passed"
             },
-            "line": 20,
-            "name": "I am directed to two way flight details",
+            "line": 19,
+            "name": "I am directed to flight details",
             "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_two_way_flight_details()"
+              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_flight_details()"
             },
             "keyword": "Then "
           }
