@@ -29,8 +29,10 @@ public class MakeMyTripStep extends ScenarioSteps {
 	@Step
 	public void flight_search() {
 		
-		MakeMyTrip.fromCity.sendKeys("mumbai");
+		MakeMyTrip.fromCity.sendKeys("delhi");
 		MakeMyTrip.selectfromCity.click();
+		MakeMyTrip.toCity.sendKeys("mumbai");
+		MakeMyTrip.selectToCity.click();
 		MakeMyTrip.Search.click();
 		try {
 			Thread.sleep(10000);
@@ -53,6 +55,10 @@ public class MakeMyTripStep extends ScenarioSteps {
 	@Step
 	public void roundflight_search() {
 		MakeMyTrip.roundTrip.select();
+		MakeMyTrip.fromCity.sendKeys("delhi");
+		MakeMyTrip.selectfromCity.click();
+		MakeMyTrip.toCity.sendKeys("mumbai");
+		MakeMyTrip.selectToCity.click();
 		MakeMyTrip.Search.click();
 		try {
 			Thread.sleep(10000);

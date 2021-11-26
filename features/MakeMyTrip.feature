@@ -10,7 +10,7 @@ Feature: Search flights
     |To|Bangalore|
     Then I am directed to flight details
     
-     @RoundWayTrip
+  @RoundWayTrip
   Scenario: Round Way flight search
     Given I am on MakeMyTrip homepage
     When I do Round way flight search for the below

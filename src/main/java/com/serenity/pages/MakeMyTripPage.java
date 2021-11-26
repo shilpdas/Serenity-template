@@ -10,14 +10,17 @@ public class MakeMyTripPage extends PageObject{
 	@FindBy(xpath = "//li[@data-cy='oneWayTrip']")
 	public WebElementFacade oneWayTrip;
 	
-	@FindBy(xpath = "//input[contains(@value,'Delhi')]")
+	@FindBy(xpath = "(//input[contains(@type,'text')])[2]")
 	public WebElementFacade fromCity;
 	
-	@FindBy(xpath = "(//div[contains(.,'Mumbai, India Chhatrapati Shivaji International Airport')])[16]")
+	@FindBy(xpath = "//p[contains(.,'New Delhi, India')]")
 	public WebElementFacade selectfromCity;
 	
-	@FindBy(xpath = "//input[contains(@value,'Bangalore')]")
+	@FindBy(xpath = "//input[contains(@placeholder,'To')]")
 	public WebElementFacade toCity;
+	
+	@FindBy(xpath = "//p[contains(.,'Chhatrapati Shivaji International Airport')]")
+	public WebElementFacade selectToCity;
 	
 	@FindBy(xpath = "//a[contains(.,'Search')]")
 	public WebElementFacade Search;
