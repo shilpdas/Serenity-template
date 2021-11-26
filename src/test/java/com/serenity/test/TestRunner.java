@@ -14,7 +14,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		,features= {"features"}
 		,glue = {"com.serenity.stepDefinations"}
 		//,dryRun = true
-		,tags="@RestDemo"
+		,tags="@Trips"
 		)
 public class TestRunner {
 
