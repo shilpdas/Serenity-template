@@ -1,157 +1,75 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-11-26T13:19:26.457Z",
+        "start_timestamp": "2021-12-06T04:13:42.686Z",
         "line": 6,
-        "name": "One Way flight search",
+        "name": "Login to Retail Site",
         "description": "",
-        "id": "search-flights;one-way-flight-search",
+        "id": "login-to-retail-site;login-to-retail-site",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1666276700,
+              "duration": 32217995300,
               "status": "passed"
             },
             "line": 7,
-            "name": "I am on MakeMyTrip homepage",
+            "name": "I am on Retail Site",
             "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_on_make_my_trip_homepage()"
+              "location": "com.serenity.stepDefinations.RetailSite.CommonStepDefination.i_am_on_retail_site()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 21941600,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8HDFUMI\u0027, ip: \u0027192.168.29.200\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: driver.version: unknown\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:161)\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)\r\n\tat net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:29)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedElement(WebElementFacadeImpl.java:231)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:226)\r\n\tat net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)\r\n\tat net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1193)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:996)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1278)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1297)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:43)\r\n\tat com.sun.proxy.$Proxy50.click(Unknown Source)\r\n\tat com.serenity.steps.RetailSite.LoginStep.login(LoginStep.java:15)\r\n\tat com.serenity.steps.RetailSite.LoginStep$ByteBuddy$bBrxgliD.login$accessor$mgWG9mkU(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)\r\n\tat net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)\r\n\tat com.serenity.steps.RetailSite.LoginStep$ByteBuddy$bBrxgliD.login(Unknown Source)\r\n\tat com.serenity.stepDefinations.RetailSite.RetailLoginStepDefination.i_enter_my_user_details(RetailLoginStepDefination.java:16)\r\n\tat ✽.I enter my user details(file:///C:/Users/ShilpiDas/ReSkill%20Projects/Serenity-template/features/Login.feature:8)\r\n",
+              "duration": 14431105400,
+              "status": "failed"
             },
             "line": 8,
-            "name": "I do one way flight search for the below",
+            "name": "I enter my user details",
             "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_do_one_way_flight_search_for_the_below(io.cucumber.datatable.DataTable)"
+              "location": "com.serenity.stepDefinations.RetailSite.RetailLoginStepDefination.i_enter_my_user_details()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "From",
-                  "Delhi"
-                ]
-              },
-              {
-                "cells": [
-                  "To",
-                  "Bangalore"
-                ]
-              }
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 16954100,
-              "status": "passed"
+              "duration": 20944200,
+              "status": "skipped"
             },
-            "line": 11,
-            "name": "I am directed to flight details",
+            "line": 9,
+            "name": "I should be successfully logged in",
             "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_flight_details()"
+              "location": "com.serenity.stepDefinations.RetailSite.RetailLoginStepDefination.i_should_be_successfully_logged_in()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Trips"
+            "name": "@tag"
           },
           {
-            "name": "@OneWayTrip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-26T13:19:28.698Z",
-        "line": 14,
-        "name": "Round Way flight search",
-        "description": "",
-        "id": "search-flights;round-way-flight-search",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 46874500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I am on MakeMyTrip homepage",
-            "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_on_make_my_trip_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5983500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I do Round way flight search for the below",
-            "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_do_round_way_flight_search_for_the_below(io.cucumber.datatable.DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "From",
-                  "Delhi"
-                ]
-              },
-              {
-                "cells": [
-                  "To",
-                  "Bangalore"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6982000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I am directed to flight details",
-            "match": {
-              "location": "com.serenity.stepDefinations.MakeMyTripStepDefination.i_am_directed_to_flight_details()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Trips"
-          },
-          {
-            "name": "@RoundWayTrip"
+            "name": "@Login"
           }
         ]
       }
     ],
-    "name": "Search flights",
-    "description": "  I want to use this template for my flight search",
-    "id": "search-flights",
+    "name": "Login to Retail Site",
+    "description": "",
+    "id": "login-to-retail-site",
     "keyword": "Feature",
-    "uri": "file:features/MakeMyTrip.feature",
+    "uri": "file:features/Login.feature",
     "tags": [
       {
-        "name": "@Trips",
+        "name": "@tag",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 2,
           "column": 1
         }
       }
